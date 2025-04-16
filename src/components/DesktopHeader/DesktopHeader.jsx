@@ -34,7 +34,7 @@ const DesktopHeader = () => {
 
                     <Link 
                         to="#" 
-                        className="bg-prim font-medium text-white-lite rounded-md py-[0.5rem] px-[0.7rem] hover:brightness-95 text-base"
+                        className="bg-prim font-medium text-white-lite rounded-md py-[0.5rem] px-[0.7rem] hover:brightness-95 text-base duration-300"
                     >
                         get started
                     </Link>
