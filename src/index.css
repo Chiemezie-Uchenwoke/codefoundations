@@ -10,6 +10,7 @@
     --color-textCol: #666666;
     --animate-slide-forward: slide-forward 0.5s forwards;
     --animate-slide-back: slide-back 0.5s forwards;
+    --animate-rotate-illustration: rotate-illustration 10s infinite ease-in-out;
 
     @keyframes slide-forward {
         0% {
@@ -26,6 +27,24 @@
         }
         100% {
         transform: translateX(-23rem);
+        }
+    }
+
+    @keyframes rotate-illustration{
+        0%{
+            transform: rotate(0deg);
+        }
+
+        25%{
+            transform: rotate(3.5deg);
+        }
+
+        75%{
+            transform: rotate(-3.5deg);
+        }
+
+        100%{
+            transform: rotate(0deg);
         }
     }
   }

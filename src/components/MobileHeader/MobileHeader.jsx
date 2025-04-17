@@ -24,7 +24,7 @@ const MobileHeader = () => {
     }
 
     return (
-        <header className="flex h-[4.5rem] bg-white-lite lg:hidden items-center border-b border-borderColor sticky top-0">
+        <header className="flex h-[4.5rem] bg-white-lite lg:hidden items-center border-b border-borderColor sticky top-0 z-50">
             <div className="container-custom flex justify-between items-center">
                 <LogoMobile />
 
