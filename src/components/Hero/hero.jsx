@@ -17,7 +17,7 @@ const Hero = () => {
                     <div className="flex flex-col md:flex-row gap-3 md:gap-4 my-3">
                         <button className="capitalize border border-borderColor bg-prim text-white-lite py-3 px-8 text-[0.9rem] rounded-md cursor-pointer hover:brightness-90 duration-300 grow font-[600] ">enroll now</button>
 
-                        <button className="capitalize border border-borderColor py-3 px-8 text-[0.9rem] rounded-md cursor-pointer hover:bg-gray-200 duration-300 grow font-[600] ">book a free call</button>
+                        <button className="capitalize border border-borderColor py-3 px-8 text-[0.9rem] rounded-md cursor-pointer bg-gray-200 hover:brightness-95 duration-300 grow font-[600] ">book a free call</button>
                     </div>
                 </div>
 
