@@ -6,10 +6,10 @@ import illustration from "../../assets/illustration_2b.png";
 const Hero = () => {
     return (
         <section className="border border-borderColor py-8 md:py-12 lg:py-20 bg-prim/3">
-            <div className="container-custom flex flex-col gap-8 sm:gap-4 lg:gap-8 sm:flex-row">
+            <div className="container-custom flex flex-col gap-8 sm:gap-4 lg:gap-8 md:flex-row">
                 <div className="flex flex-col gap-6 w-[100%] md:w-[60%]">
-                    <h1 className="font-medium text-shade-of-black capitalize text-[1.5rem] sm:text-lg md:text-2xl lg:text-[2.2rem] xl:text-[2.52rem] leading-10 lg:leading-16">Still Struggling With <span className="text-prim">JavaScript</span> or <span className="text-prim">Web Fundamentals</span>?</h1>
-
+                    <h1 className="font-medium text-shade-of-black capitalize text-[1.3rem] sm:text-3xl md:text-2xl lg:text-[2rem] xl:text-[2.3rem] 2xl:text-[2.35rem] leading-10 sm:leading-12 ">Still Struggling With <span className="text-prim">JavaScript</span> or <span className="text-prim">Web Fundamentals</span>?</h1>
+ 
                     <p className="text-[0.9rem] md:text-[0.95rem] capitalize text-justify leading-6 md:leading-8 hyphens-auto">
                         Get personalized 1:1 mentorship designed for <span className="font-[600]">beginners</span> and self-taught <span className="font-[600]">developers</span> feeling stuck, overwhelmed, or lost in their coding journey.
                     </p>
@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
 
                 <figure className="md:w-[40%] flex justify-center items-center">
-                    <img src={illustration} alt="illustration" loading="lazy" className="w-full max-w-[25rem] sm:max-w-[35rem] animate-rotate-illustration" />
+                    <img src={illustration} alt="illustration" loading="lazy" className="w-full max-w-[25rem] sm:max-w-[30rem] animate-rotate-illustration" />
                 </figure>
             </div>
         </section>
