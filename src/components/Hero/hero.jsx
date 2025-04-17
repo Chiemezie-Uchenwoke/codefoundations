@@ -1,10 +1,11 @@
 import { FaHtml5 } from "react-icons/fa";
 import { MdOutlineCss } from "react-icons/md";
 import { IoLogoJavascript } from "react-icons/io5";
+// import bgImage from "../../assets/bg_1.jpg";
 
 const Hero = () => {
     return (
-        <section className="container-custom" style={{marginTop: "2.5rem"}}>
+        <section className="border border-borderColor py-8 px-3 bg-prim/5">
             <div className="flex flex-col gap-6 items-center sm:w-[70%] lg:w-[75%] max-w-[25rem] md:max-w-[35rem] lg:max-w-[50rem] my-0 mx-auto">
                 <h1 className="font-medium text-shade-of-black capitalize text-2xl md:text-3xl lg:text-5xl text-center leading-10 lg:leading-16">Still Struggling With <span className="text-prim">JavaScript</span> or <span className="text-prim">Web Fundamentals</span>?</h1>
 

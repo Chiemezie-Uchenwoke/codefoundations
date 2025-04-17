@@ -13,7 +13,7 @@ const DesktopHeader = () => {
 
     return (
         
-        <header className="hidden h-[4.5rem] bg-white-lite lg:flex items-center border-b border-borderColor">
+        <header className="hidden h-[4.5rem] bg-white-lite lg:flex items-center border-b border-borderColor sticky top-0">
             <div className="container-custom flex justify-between items-center">
                 <figure className="flex items-center gap-2 cursor-pointer" onClick={handleHomeRedirect}>
                     <img src={logo} alt="spendwise logo" className="w-[2.2rem] h-auto" />
