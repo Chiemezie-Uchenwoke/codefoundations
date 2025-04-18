@@ -1,6 +1,7 @@
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/hero";
 import ProgramFor from "../components/ProgramFor/ProgramFor";
+import ProgramFeatures from "../components/ProgramFeatures/ProgramFeatures";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Header />
             <Hero />
             <ProgramFor />
+            <ProgramFeatures />
         </>
     )
 }

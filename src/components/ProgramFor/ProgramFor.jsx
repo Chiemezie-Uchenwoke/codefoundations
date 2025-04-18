@@ -1,12 +1,13 @@
 import youngDevs from "../../assets/team_laptop.jpg";
 import { FaCheckCircle } from "react-icons/fa";
+import SectionHeadingText from "../SectionHeadingText/SectionHeadingText";
 
 const ProgramFor = () => {
     return (
         <section className="container-custom top-margin flex flex-col items-center gap-6 md:gap-8 lg:gap-10">
-            <h2 className="font-semibold capitalize text-xl sm:text-2xl lg:text-4xl">Who is this program for?</h2>
+            <SectionHeadingText headingText="Who is this program for?" />
             <div className="flex flex-col md:flex-row gap-4 sm:gap-8">
-                <figure className="overflow-hidden w-full md:w-[50%] lg:w-[40%]">
+                <figure className="overflow-hidden rounded-md w-full md:w-[50%] lg:w-[40%]">
                     <img src={youngDevs} alt="Young developers learning and collaborating" loading="lazy" className="w-full h-full object-fit-cover" />
                 </figure>
 

@@ -89,6 +89,10 @@ body{
     .container-custom{
         width: 85%;
     }
+
+    .top-margin{
+        margin-top: 6rem;
+    }
 }
 
 @media (min-width: 1500px){
