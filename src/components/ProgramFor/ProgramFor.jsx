@@ -6,12 +6,12 @@ const ProgramFor = () => {
     return (
         <section className="container-custom top-margin flex flex-col items-center gap-6 md:gap-8 lg:gap-10">
             <SectionHeadingText headingText="Who is this program for?" />
-            <div className="flex flex-col md:flex-row gap-4 sm:gap-8">
-                <figure className="overflow-hidden rounded-md w-full md:w-[50%] lg:w-[40%]">
-                    <img src={youngDevs} alt="Young developers learning and collaborating" loading="lazy" className="w-full h-full object-fit-cover" />
+            <div className="flex flex-col lg:flex-row gap-4 sm:gap-8">
+                <figure className="overflow-hidden rounded-md w-full lg:w-[40%]">
+                    <img src={youngDevs} alt="Young developers learning and collaborating" loading="lazy" className="w-full h-auto object-fit-cover" />
                 </figure>
 
-                <ul className="w-full md:w-[50%] lg:w-[60%] flex flex-col gap-4">
+                <ul className="w-full lg:w-[60%] flex flex-col gap-4">
                     <h3 className="font-semibold text-base lg:text-lg">This program is perfect for you if:</h3>
                     <li className="text-sm lg:text-base flex gap-2 leading-6">
                         <span className="py-2"><FaCheckCircle className="text-base text-prim" /></span> 
