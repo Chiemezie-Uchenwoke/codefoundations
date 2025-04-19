@@ -1,6 +1,8 @@
 import SectionHeadingText from "../SectionHeadingText/SectionHeadingText";
 import { TbPointFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { FaGlobe } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 const ProgramFeatures = () => {
     return (
@@ -9,17 +11,24 @@ const ProgramFeatures = () => {
                 <SectionHeadingText headingText="Program Features" />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div className="border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-md bg-white-lite">
-                        <h3 className="text-base font-semibold">Web fundamentals <br /> (6 weeks)</h3>
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
+                        <h3 className="text-sm font-semibold flex items-center gap-2">
+                            <span className="transition-transform duration-300 group-hover:rotate-12"><FaGlobe className="text-prim text-3xl" /></span> 
+                            Web fundamentals <br /> (6 weeks)
+                        </h3>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
-                                Learning the basics of HTML, CSS, and JavaScript
+                                Learning the basics of HTML & CSS
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
                                 Mastering page layouts, styling, and responsiveness
+                            </li>
+                            <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
+                                <span className="py-1"><TbPointFilled /></span>
+                                Learning basic JavaScript
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
@@ -37,8 +46,11 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize">view curriculum</Link>
                     </div>
 
-                    <div className="border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-md bg-white-lite">
-                        <h3 className="text-base font-semibold">Web fundamentals <br /> (12 weeks)</h3>
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
+                        <h3 className="text-sm font-semibold flex items-center gap-2">
+                            <span className="transition-transform duration-300 group-hover:rotate-12"><FaGlobe className="text-prim text-3xl" /></span> 
+                            Web fundamentals <br /> (6 weeks)
+                        </h3>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -69,8 +81,11 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize">view curriculum</Link>
                     </div>
                     
-                    <div className="border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-md bg-white-lite">
-                        <h3 className="text-base font-semibold">JavaScript Basics <br /> (6 Weeks)</h3>
+                    <div className="border border-borderColor group py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
+                        <h3 className="text-sm font-semibold flex items-center gap-2">
+                            <span className="transition-transform duration-300 group-hover:rotate-12"><SiJavascript className="text-yellow-500 text-3xl" /></span>
+                            JavaScript Basics <br /> (6 Weeks)
+                        </h3>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -80,6 +95,10 @@ const ProgramFeatures = () => {
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
                                 Working with DOM manipulation, functions, and events
+                            </li>
+                            <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
+                                <span className="py-1"><TbPointFilled /></span>
+                                Understanding conditional statements
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
@@ -97,8 +116,11 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize">view curriculum</Link>
                     </div>
 
-                    <div className="border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-md bg-white-lite">
-                        <h3 className="text-base font-semibold">Advanced JavaScript <br /> (12 Weeks)</h3>
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
+                        <h3 className="text-sm font-semibold flex items-center gap-2">
+                            <span className="transition-transform duration-300 group-hover:rotate-12"><SiJavascript className="text-yellow-500 text-3xl" /></span>
+                            Advanced JavaScript <br /> (12 Weeks)
+                        </h3>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
