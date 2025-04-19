@@ -10,12 +10,15 @@ const ProgramFeatures = () => {
             <div className="container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
                 <SectionHeadingText headingText="Program Features" />
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-5">
                     <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
-                            <span className="transition-transform duration-300 group-hover:rotate-12"><FaGlobe className="text-prim text-3xl" /></span> 
-                            Web fundamentals <br /> (6 weeks)
+                            <span className="transition-transform duration-300 group-hover:rotate-12">
+                                <FaGlobe className="text-prim text-3xl" />
+                            </span> 
+                            Web fundamentals
                         </h3>
+                        <p className="font-medium text-sm">Duration: 6 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -48,9 +51,12 @@ const ProgramFeatures = () => {
 
                     <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
-                            <span className="transition-transform duration-300 group-hover:rotate-12"><FaGlobe className="text-prim text-3xl" /></span> 
-                            Web fundamentals <br /> (6 weeks)
+                            <span className="transition-transform duration-300 group-hover:rotate-12">
+                                <FaGlobe className="text-prim text-3xl" />
+                            </span> 
+                            Web fundamentals
                         </h3>
+                        <p className="font-medium text-sm">Duration: 12 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -83,9 +89,12 @@ const ProgramFeatures = () => {
                     
                     <div className="border border-borderColor group py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
-                            <span className="transition-transform duration-300 group-hover:rotate-12"><SiJavascript className="text-yellow-500 text-3xl" /></span>
-                            JavaScript Basics <br /> (6 Weeks)
+                            <span className="transition-transform duration-300 group-hover:rotate-12">
+                                <SiJavascript className="text-yellow-500 text-3xl" />
+                            </span>
+                            JavaScript Basics
                         </h3>
+                        <p className="font-medium text-sm">Duration: 6 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -118,9 +127,12 @@ const ProgramFeatures = () => {
 
                     <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:bg-white-dark hover:scale-[1.005] duration-300">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
-                            <span className="transition-transform duration-300 group-hover:rotate-12"><SiJavascript className="text-yellow-500 text-3xl" /></span>
-                            Advanced JavaScript <br /> (12 Weeks)
+                            <span className="transition-transform duration-300 group-hover:rotate-12">
+                                <SiJavascript className="text-yellow-500 text-3xl" />
+                            </span>
+                            Advanced JavaScript
                         </h3>
+                        <p className="font-medium text-sm">Duration: 12 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
