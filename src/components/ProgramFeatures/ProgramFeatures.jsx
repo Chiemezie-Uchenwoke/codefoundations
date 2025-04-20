@@ -99,7 +99,7 @@ const ProgramFeatures = () => {
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
-                                Understanding JavaScript syntax, logic, and flow
+                                Understanding JavaScript variables and data types
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
