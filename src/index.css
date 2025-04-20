@@ -11,6 +11,7 @@
     --animate-slide-forward: slide-forward 0.5s forwards;
     --animate-slide-back: slide-back 0.5s forwards;
     --animate-rotate-illustration: rotate-illustration 10s infinite ease-in-out;
+    --animate-bounce: bounce 1s infinite ease-in-out;
 
     @keyframes slide-forward {
         0% {
@@ -45,6 +46,20 @@
 
         100%{
             transform: rotate(0deg);
+        }
+    }
+
+    @keyframes bounce {
+        0%{
+            transform: translateY(0);
+        }
+
+        50%{
+            transform: translateY(3px);
+        }
+
+        100%{
+            transform: translateY(0);
         }
     }
   }

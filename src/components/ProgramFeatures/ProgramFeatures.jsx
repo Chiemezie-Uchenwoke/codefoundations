@@ -18,7 +18,7 @@ const ProgramFeatures = () => {
                             </span> 
                             Web fundamentals
                         </h3>
-                        <p className="font-light text-sm">Duration: 6 weeks</p>
+                        <p className="font-medium text-sm">Duration: 6 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -56,7 +56,7 @@ const ProgramFeatures = () => {
                             </span> 
                             Web fundamentals
                         </h3>
-                        <p className="font-light text-sm">Duration: 12 weeks</p>
+                        <p className="font-medium text-sm">Duration: 12 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -94,7 +94,7 @@ const ProgramFeatures = () => {
                             </span>
                             JavaScript Basics
                         </h3>
-                        <p className="font-light text-sm">Duration: 6 weeks</p>
+                        <p className="font-medium text-sm">Duration: 6 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
@@ -132,7 +132,7 @@ const ProgramFeatures = () => {
                             </span>
                             Advanced JavaScript
                         </h3>
-                        <p className="font-light text-sm">Duration: 12 weeks</p>
+                        <p className="font-medium text-sm">Duration: 12 weeks</p>
                         <p className="text-sm">This program includes:</p>
                         <ul className="flex flex-col gap-3">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
