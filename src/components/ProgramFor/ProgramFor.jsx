@@ -6,7 +6,7 @@ const ProgramFor = () => {
     return (
         <section className="container-custom top-margin flex flex-col items-center gap-6 md:gap-8 lg:gap-10">
             <SectionHeadingText headingText="Who is this program for?" />
-            <div className="flex flex-col lg:flex-row gap-4 sm:gap-8">
+            <div className="flex flex-col lg:flex-row gap-4 sm:gap-8 lg:gap-10">
                 <figure className="overflow-hidden rounded-md w-full lg:w-[40%]">
                     <img src={youngDevs} alt="Young developers learning and collaborating" loading="lazy" className="w-full h-auto object-fit-cover" />
                 </figure>

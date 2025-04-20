@@ -163,6 +163,7 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
                     </div>
                 </div>
+                <Link to="#" className="bg-prim text-white-lite py-3 px-10 border border-borderColor rounded-md mt-5 hover:brightness-90 duration-300">Enroll Now</Link>
             </div>
         </section>
     )
