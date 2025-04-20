@@ -15,7 +15,7 @@ const ProgramFor = () => {
                     <h3 className="font-semibold text-base lg:text-lg">This program is perfect for you if:</h3>
                     <li className="text-sm lg:text-base flex gap-2 leading-6">
                         <span className="py-2"><FaCheckCircle className="text-base text-prim" /></span> 
-                        You're a beginner who wants to learn web development the right way, not just from random YouTube tutorials.
+                        You're a beginner who wants to learn web development the right way, not just from random video tutorials.
                     </li>
 
                     <li className="text-sm lg:text-base flex gap-2 leading-6">
