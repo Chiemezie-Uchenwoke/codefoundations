@@ -54,7 +54,7 @@ const ProgramFeatures = () => {
                             <span className="transition-transform duration-300 group-hover:rotate-12">
                                 <FaGlobe className="text-prim text-3xl" />
                             </span> 
-                            Web fundamentals
+                            Web fundamentals +
                         </h3>
                         <p className="font-medium text-sm">Duration: 12 weeks</p>
                         <p className="text-sm">This program includes:</p>

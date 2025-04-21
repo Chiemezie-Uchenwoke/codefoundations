@@ -46,7 +46,7 @@ const Pricing = () => {
                     </figure>
 
                     <div className="flex flex-col gap-4 px-4 py-4">
-                        <h3 className="text-sm font-medium capitalize">Web Fundamentals</h3>
+                        <h3 className="text-sm font-medium capitalize">Web Fundamentals +</h3>
 
                         <ul className="flex flex-col gap-2 capitalize">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
