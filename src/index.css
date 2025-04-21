@@ -6,6 +6,7 @@
     --color-white-dark: #f2f2f2cc;
     --color-shade-of-black: #171717;
     --color-borderColor: #0000001d;
+    --color-borderLite: rgb(139, 139, 139);
     --color-deep-dark: #121212;
     --color-textCol: #666666;
     --animate-slide-forward: slide-forward 0.5s forwards;
