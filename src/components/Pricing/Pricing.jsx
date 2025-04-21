@@ -10,7 +10,7 @@ import { MdOutlineCheck } from "react-icons/md";
 const Pricing = () => {
     return (
         <section className="top-margin container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
-            <SectionHeadingText headingText="Pricing" />
+            <SectionHeadingText headingText="Mentorship Plans" />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300">
@@ -105,7 +105,7 @@ const Pricing = () => {
                         <ul className="flex flex-col gap-2 capitalize">
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><MdOutlineCheck /></span>
-                                duration: 6 weeks
+                                duration: 12 weeks
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><MdOutlineCheck /></span>
