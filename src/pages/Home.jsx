@@ -4,6 +4,7 @@ import ProgramFor from "../components/ProgramFor/ProgramFor";
 import ProgramFeatures from "../components/ProgramFeatures/ProgramFeatures";
 import HowToGetStarted from "../components/HowToGetStarted/HowToGetStarted";
 import Pricing from "../components/Pricing/Pricing";
+import ReadyToStart from "../components/ReadyToStart/ReadyToStart";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <ProgramFeatures />
             <HowToGetStarted />
             <Pricing />
+            <ReadyToStart />
         </>
     )
 }
