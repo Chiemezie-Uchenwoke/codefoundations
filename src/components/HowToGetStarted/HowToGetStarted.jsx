@@ -28,7 +28,7 @@ const HowToGetStarted = () => {
 
                     <div className="bg-white-lite text-shade-of-black p-4 rounded-md flex flex-col gap-4 items-center justify-center text-center text-sm lg:text-base border border-borderColor shadow-md capitalize font-medium group py-6">
                         <span className="group-hover:animate-bounce"><MdMailOutline className="text-4xl" /></span>
-                        <p>Onboarding email</p>
+                        <p>Get Onboarding email</p>
                     </div>
                 </div>
             </div>
