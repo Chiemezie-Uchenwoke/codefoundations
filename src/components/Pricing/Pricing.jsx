@@ -13,7 +13,7 @@ const Pricing = () => {
             <SectionHeadingText headingText="Mentorship Plans" />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300">
+                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300 group">
                     <figure className="overflow-hidden rounded-t-md h-[10rem]">
                         <img src={learnCode1} alt="Image of people learning web development" loading="lazy" className="w-full object-fit-cover rounded-t-md" />
                     </figure>
@@ -40,7 +40,7 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300">
+                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300 group">
                     <figure className="overflow-hidden rounded-t-md h-[10rem]">
                         <img src={learnCode3} alt="Image of people learning web development" loading="lazy" className="w-full object-fit-cover rounded-t-md" />
                     </figure>
@@ -67,7 +67,7 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300">
+                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300 group">
                     <figure className="overflow-hidden rounded-t-md h-[10rem]">
                         <img src={learnCode2} alt="Image of people learning web development" loading="lazy" className="w-full object-fit-cover rounded-t-md" />
                     </figure>
@@ -94,7 +94,7 @@ const Pricing = () => {
                     </div>
                 </div>
 
-                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300">
+                <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300 group">
                     <figure className="overflow-hidden rounded-t-md h-[10rem]">
                         <img src={learnCode4} alt="Image of people learning web development" loading="lazy" className="w-full object-fit-cover rounded-t-md" />
                     </figure>
