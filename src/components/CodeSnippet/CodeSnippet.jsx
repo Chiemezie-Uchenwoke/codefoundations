@@ -17,7 +17,7 @@ const CodeSnippet = ({ code, language }) => {
   };
 
   return (
-    <div className="relative border rounded-md overflow-hidden bg-[#1e1e1e] pt-4 md:w-[40%] max-w-[768px] animate-rotate-illustration ">
+    <div className="relative border rounded-md overflow-hidden bg-[#1e1e1e] pt-4 md:w-[40%] max-w-[768px]">
        <button
          onClick={handleCopy}
          className="absolute top-2 right-2 text-xs bg-gray-700 text-white-lite px-2 py-1 rounded-md hover:brightness-90 duration-300"
