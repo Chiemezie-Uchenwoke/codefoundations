@@ -89,13 +89,27 @@ body{
     background-color:  #f2f2f2cc;
 }
 
+/* @media (min-width: 630px){
+    .container-custom{
+        width: 60%;
+    }
+} */
+
 @media (min-width: 700px){
+    .container-custom{
+        width: 85%;
+    }
+
     .hero_grid{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 768px){
+    /* .container-custom{
+        width: 80%;
+    } */
+
     .hero_grid{
         grid-template-columns: 1.2fr 0.8fr;
     }
