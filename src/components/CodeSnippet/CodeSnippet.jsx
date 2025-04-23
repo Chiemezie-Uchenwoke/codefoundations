@@ -30,7 +30,7 @@ const CodeSnippet = ({ code, language }) => {
       <SyntaxHighlighter
         language={language}
         style={vscDarkPlus}
-        customStyle={{ margin: 0, padding: "1rem", fontSize: "0.85rem" }}
+        customStyle={{ margin: 0, padding: "1rem 0", fontSize: "0.85rem" }}
       >
         {code}
       </SyntaxHighlighter>
