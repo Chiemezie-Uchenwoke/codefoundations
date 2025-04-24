@@ -11,8 +11,8 @@ const Hero = () => {
     const code = CodeDisplay();
 
     return (
-        <section className="border border-borderColor py-8 md:py-12 lg:py-20 bg-prim/3" style={{backgroundImage: `url(${bgImage})`}}>
-            <div className="container-custom flex flex-col gap-8 sm:gap-4 md:gap-8 md:flex-row">
+        <section className="border border-borderColor py-8 md:py-12 lg:py-20 bg-[prim/3]" style={{backgroundImage: `url(${bgImage})`}}>
+            <div className="container-custom flex flex-col gap-8 sm:gap-4 md:gap-8 lg:gap-10 md:flex-row">
                 <div className="flex flex-col gap-6 w-[100%] md:w-[60%]">
                     <h1 className="font-medium text-white-lite capitalize text-[1.3rem] sm:text-3xl md:text-2xl lg:text-[2rem] xl:text-[2.3rem] 2xl:text-[2.35rem] leading-10 sm:leading-12 ">Still Struggling With <span className="">JavaScript</span> or <span className="">Web Fundamentals</span>?</h1>
  
