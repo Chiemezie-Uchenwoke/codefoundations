@@ -12,7 +12,7 @@ const Pricing = () => {
         <section className="top-margin container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
             <SectionHeadingText headingText="Mentorship Plans" />
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 md:w-[90%] lg:w-full">
+            <div className="grid grid-cols-1 max-[549px]:max-w-[18rem] min-[550px]:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 md:w-[90%] lg:w-full">
                 <div className="border border-borderColor flex flex-col shadow rounded-t-md hover:scale-105 duration-300 group">
                     <figure className="overflow-hidden rounded-t-md h-[10rem]">
                         <img src={learnCode1} alt="Image of people learning web development" loading="lazy" className="w-full object-fit-cover rounded-t-md" />

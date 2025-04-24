@@ -10,8 +10,8 @@ const ProgramFeatures = () => {
             <div className="container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
                 <SectionHeadingText headingText="Program Features" />
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-5">
-                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300">
+                <div className="grid grid-cols-1 max-[549px]:max-w-[18rem] min-[550px]:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-5 justify-center">
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300 program_features">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
                             <span className="transition-transform duration-300 group-hover:rotate-12">
                                 <FaGlobe className="text-prim text-3xl" />
@@ -49,7 +49,7 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
                     </div>
 
-                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300">
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300 program_features">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
                             <span className="transition-transform duration-300 group-hover:rotate-12">
                                 <FaGlobe className="text-prim text-3xl" />
@@ -87,7 +87,7 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
                     </div>
                     
-                    <div className="border border-borderColor group py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02]  hover:border-prim/40 duration-300">
+                    <div className="border border-borderColor group py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02]  hover:border-prim/40 duration-300 program_features">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
                             <span className="transition-transform duration-300 group-hover:rotate-12">
                                 <SiJavascript className="text-yellow-500 text-3xl" />
@@ -125,7 +125,7 @@ const ProgramFeatures = () => {
                         <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
                     </div>
 
-                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300">
+                    <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300 program_features">
                         <h3 className="text-sm font-semibold flex items-center gap-2">
                             <span className="transition-transform duration-300 group-hover:rotate-12">
                                 <SiJavascript className="text-yellow-500 text-3xl" />
