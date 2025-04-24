@@ -6,7 +6,7 @@ import { SiJavascript } from "react-icons/si";
 
 const ProgramFeatures = () => {
     return (
-        <section className="top-margin bg-prim/3 py-12 lg:py-16">
+        <section className="top-margin bg-prim/3 py-12 lg:py-16" id="features">
             <div className="container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
                 <SectionHeadingText headingText="Program Features" />
 
