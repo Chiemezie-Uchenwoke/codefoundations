@@ -76,6 +76,7 @@ const BeginnerCourse = () => {
                     <li className="list-disc list-inside">variables, data types, operators</li>
                     <li className="list-disc list-inside">Functions, if statements</li>
                     <li className="list-disc list-inside">Basic DOM manipulation</li>
+                    <li className="list-disc list-inside">Project</li>
                 </ul>
             </div>
         </section>
