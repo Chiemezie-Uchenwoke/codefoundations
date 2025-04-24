@@ -31,7 +31,11 @@ const ProgramFeatures = () => {
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
-                                Learning basic JavaScript
+                                Learning basic JavaScript concepts
+                            </li>
+                            <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
+                                <span className="py-1"><TbPointFilled /></span>
+                                Basic DOM manipulation
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
@@ -39,14 +43,10 @@ const ProgramFeatures = () => {
                             </li>
                             <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
                                 <span className="py-1"><TbPointFilled /></span>
-                                Using Git & GitHub for version control
-                            </li>
-                            <li className="text-[0.8rem] flex gap-2 leading-[1.2rem]">
-                                <span className="py-1"><TbPointFilled /></span>
                                 Perfect for fast learners who want to get started quickly
                             </li>
                         </ul>
-                        <Link to="#" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
+                        <Link to="/webfundamentals" className="underline mt-3 text-prim text-sm font-semibold capitalize hover:no-underline">view curriculum</Link>
                     </div>
 
                     <div className="group border border-borderColor py-8 px-4 flex flex-col gap-3 shadow rounded-lg bg-white-lite hover:shadow-xl hover:scale-[1.02] hover:border-prim/40 duration-300 program_features">
