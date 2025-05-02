@@ -66,7 +66,7 @@ const Apply = () => {
 
                     <button
                     type="submit"
-                    className="bg-prim text-white-lite py-3 px-6 rounded-md hover:brightness-90 duration-300 w-full font-semibold"
+                    className="bg-prim text-white-lite py-3 px-6 rounded-md hover:brightness-90 duration-300 w-full font-semibold cursor-pointer"
                     >
                     Submit Application
                     </button>
