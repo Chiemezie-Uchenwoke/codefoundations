@@ -9,7 +9,7 @@ import { MdOutlineCheck } from "react-icons/md";
 
 const Pricing = () => {
     return (
-        <section className="top-margin container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center">
+        <section className="top-margin container-custom flex flex-col gap-6 md:gap-8 lg:gap-10 items-center" id="pricing">
             <SectionHeadingText headingText="Mentorship Plans" />
 
             <div className="grid grid-cols-1 max-[549px]:max-w-[18rem] min-[550px]:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 md:w-[90%] lg:w-full">

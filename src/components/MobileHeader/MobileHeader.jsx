@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { getNavLinkClass } from "../../utils/NavLink";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
@@ -32,6 +32,8 @@ const MobileHeader = () => {
                     <button 
                       className="border border-borderColor rounded" style={{padding: "0.2rem"}}
                       onClick={handleMenuOpen}
+                      aria-label="Toggle menu"
+                      aria-expanded={menu}
                     >
                         
                         {menu 
@@ -55,19 +57,19 @@ const MobileHeader = () => {
 
                             <NavLink to="/" className={getNavLinkClass}>home</NavLink>
 
-                            <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">why join</Link>
+                            <a href="#why_join" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">why join</a>
 
-                            <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">curriculum</Link>
+                            <a href="#features" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">curriculum</a>
 
-                            <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">pricing</Link>
+                            <a href="#pricing" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">pricing</a>
 
-                            <Link 
-                                to="#" 
+                            <a 
+                                href="#enroll" 
                                 className="bg-prim font-medium text-white-lite text-center rounded-md hover:brightness-95 text-base" 
                                 style={{padding: "0.5rem 0.7rem"}}
                             >
                                 get started
-                            </Link>
+                            </a>
                     </nav> :
                     ""
                     }

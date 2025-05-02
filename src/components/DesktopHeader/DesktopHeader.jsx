@@ -1,5 +1,5 @@
 import logo from "../../assets/code_foundations_logo.png";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { getNavLinkClass } from "../../utils/NavLink";
 
@@ -23,21 +23,21 @@ const DesktopHeader = () => {
                 <nav className="capitalize flex gap-8 center">
                     <NavLink to="/" className={getNavLinkClass}>home</NavLink>
 
-                    <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">why join</Link>
+                    <a href="#why_join" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">why join</a>
 
-                    <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">curriculum</Link>
+                    <a href="#features" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">curriculum</a>
 
-                    <Link to="#" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">pricing</Link>
+                    <a href="#pricing" className="font-medium opacity-80 hover:opacity-95 hover:text-prim text-base">pricing</a>
                 </nav>
 
                 <div className="capitalize flex items-center gap-4 font-bold">
 
-                    <Link 
-                        to="#" 
+                    <a 
+                        href="#enroll" 
                         className="bg-prim font-medium text-white-lite rounded-md py-[0.5rem] px-[0.7rem] hover:brightness-95 text-base duration-300"
                     >
                         get started
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>  
