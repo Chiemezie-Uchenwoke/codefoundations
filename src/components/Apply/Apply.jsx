@@ -7,15 +7,11 @@ const Apply = () => {
             <SectionHeadingText headingText="Apply for the mentorship" />
             <div className="container-custom flex flex-col min-[600px]:flex-row gap-8 lg:gap-10">
                 <div className="w-full md:w-[50%] flex flex-col gap-5 ">
-                    <h3 className="text-xl sm:text-2xl font-semibold text-shade-of-black">
-                    Ready to Join?
+                    <h3 className="text-xl sm:text-xl font-semibold text-shade-of-black capitalize">
+                    Fill out the form to enroll for the mentorship.
                     </h3>
 
-                    <p className="text-sm md:text-base">
-                        Fill out the form to enroll for the mentorship.
-                    </p>
-
-                    <ul className="flex flex-col gap-3">
+                    <ul className="flex flex-col gap-5">
                         <h3 className="capitalize font-medium text-base md:text-lg">What you'll get:</h3>
                         <li className="text-sm lg:text-base flex gap-2 leading-6">
                             <span className="py-1"><FaCheckCircle className="text-base text-prim" /></span> 
