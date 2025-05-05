@@ -36,8 +36,8 @@ const Apply = () => {
                     <div className="flex flex-col gap-3">
                         <h3 className="text-xl font-medium text-shade-of-black">Have questions?</h3>
                         <div className="flex gap-3">
-                            <a href="mailto:codefoundationsng@gmail.com" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/8">email</a>
-                            <a href="https://wa.link/a9c1t0" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/8">WhatsApp Us</a>
+                            <a href="mailto:codefoundationsng@gmail.com" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/5">email</a>
+                            <a href="https://wa.link/a9c1t0" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/5">WhatsApp Us</a>
                         </div>
                     </div>
                 </div>

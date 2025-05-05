@@ -36,7 +36,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-prim/10">Enroll now</Link>
+                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-black/5">Enroll now</Link>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-prim/10">Enroll now</Link>
+                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-black/5">Enroll now</Link>
                     </div>
                 </div>
 
@@ -90,7 +90,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-prim/10">Enroll now</Link>
+                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-black/5">Enroll now</Link>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@ const Pricing = () => {
                             </li>
                         </ul>
 
-                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-prim/10">Enroll now</Link>
+                        <Link to="#" className="border border-borderLite text-sm capitalize py-2 px-4 my-2 self-start text-shade-of-black rounded-md hover:brightness-90 hover:bg-black/5">Enroll now</Link>
                     </div>
                 </div>
             </div>

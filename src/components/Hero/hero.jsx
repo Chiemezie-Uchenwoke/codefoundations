@@ -4,7 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 // import illustration from "../../assets/illustration_2b.png";
 import CodeSnippet from "../CodeSnippet/CodeSnippet";
 import CodeDisplay from "../../utils/CodeDisplay";
-import bgImage from "../../assets/bg_15.jpg";
+import bgImage from "../../assets/bg_10.jpg";
 
 
 const Hero = () => {
