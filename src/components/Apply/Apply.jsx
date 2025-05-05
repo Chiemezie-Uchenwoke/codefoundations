@@ -6,7 +6,7 @@ const Apply = () => {
         <section id="enroll" className="top-margin flex flex-col items-center gap-4 sm:gap-8 lg:gap-10">
             <SectionHeadingText headingText="Apply for the mentorship" />
             <div className="container-custom flex flex-col min-[600px]:flex-row gap-8 lg:gap-10">
-                <div className="w-full md:w-[50%] flex flex-col gap-5 ">
+                <div className="w-full md:w-[50%] flex flex-col gap-8 ">
                     <h3 className="text-xl sm:text-xl font-semibold text-shade-of-black capitalize">
                     Fill out the form to enroll for the mentorship.
                     </h3>
@@ -36,8 +36,8 @@ const Apply = () => {
                     <div className="flex flex-col gap-3">
                         <h3 className="text-xl font-medium text-shade-of-black">Have questions?</h3>
                         <div className="flex gap-3">
-                            <a href="mailto:codefoundationsng@gmail.com" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer">email</a>
-                            <a href="https://wa.link/a9c1t0" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer">WhatsApp Us</a>
+                            <a href="mailto:codefoundationsng@gmail.com" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/8">email</a>
+                            <a href="https://wa.link/a9c1t0" target="_blank" className="border rounded-md py-2 px-4 grow text-center capitalize cursor-pointer hover:bg-black/8">WhatsApp Us</a>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ import Pricing from "../components/Pricing/Pricing";
 import ReadyToStart from "../components/ReadyToStart/ReadyToStart";
 import WhyJoin from "../components/WhyJoin/WhyJoin";
 import Apply from "../components/Apply/Apply";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <ReadyToStart />
             <WhyJoin />
             <Apply />
+            <Footer />
         </>
     )
 }
